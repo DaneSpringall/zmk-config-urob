@@ -1,15 +1,12 @@
-/zmk-nodefree-config/keypos_def/keypos_42keys.h
+/* source keypos definitions */
+#include "../zmk-nodefree-config/keypos_def/keypos_42keys.h"
 
-#define X_LT &kp TAB
-#define X_LM &kp LALT
-#define X_LB &kp LGUI
-#define X_LH &kp SPACE
+/* map Zen's extra keys */
+#define X_LH  &smart_mouse  // thumb row, left
+#define X_RH  &bs_del       // thumb row, right
 
-#define X_RT &kp ESC
-#define X_RM &kp SQT
-#define X_RB &kp LGUI
-#define X_RH &kp ENTER
-
+/* activate bluetooth */
 #define CONFIG_WIRELESS 1
 
+/* source the main keymap */
 #include "base.keymap"
