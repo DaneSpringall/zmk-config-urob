@@ -13,5 +13,3 @@
 #define CONFIG_WIRELESS 1
 
 #include "base.keymap"
-
-/ { chosen { zmk,matrix_transform = &six_column_transform; }; };
