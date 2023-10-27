@@ -6,7 +6,7 @@
 #define X_LM &kp LALT
 #define X_LB &kp LGUI
 #define X_RT &kp ESC
-#define X_RM &kp SQT
+#define X_RM &kp SLASH
 #define X_RB &kp LSHFT
 #define X_LH  &smart_mouse  // thumb row, left
 #define X_RH  &bs_del       // thumb row, right
