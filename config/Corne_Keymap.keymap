@@ -8,6 +8,7 @@
 #define X_RT &kp ESC
 #define X_RM &kp SQT
 #define X_RB &kp LGUI
+#define X_RH &kp ENTER
 
 #define CONFIG_WIRELESS 1
 
