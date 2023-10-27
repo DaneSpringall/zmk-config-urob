@@ -1,4 +1,4 @@
-/zmk-nodefree-config/keypos_def/keypos_42keys_wide.h
+/zmk-nodefree-config/keypos_def/keypos_42keys.h
 
 #define X_LT &kp TAB
 #define X_LM &kp LALT
