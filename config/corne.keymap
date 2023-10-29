@@ -9,7 +9,7 @@
 #define X_RM &kp SLASH
 #define X_RB &kp LSHFT
 #define X_LH  &smart_mouse  // thumb row, left
-#define X_RH  &SMART_NUM     // thumb row, right
+#define X_RH  SMART_NUM     // thumb row, right
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
